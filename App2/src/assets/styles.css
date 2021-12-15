@@ -1,0 +1,73 @@
+/* Custom Disney colors */
+:root {
+    --disney-red: #B12228;
+    --disney-pink: #F0BFB9;
+    --disney-yellow: #F2CC63;
+    --disney-dark-blue: #10194A;
+    --disney-light-blue: #393F8F;
+}
+
+body {
+    background-color: var(--disney-dark-blue);
+    padding: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Avenir;
+    color: var(--disney-dark-blue);
+    text-align: center;
+}
+
+Section {
+    background-color: whitesmoke;
+    color: var(--disney-dark-blue);
+    padding: 6px 6px 6px 6px;
+    border-style: ridge;
+    border-width: 3px;
+    min-height: 170px;
+}
+
+#main-title {
+    font-size: 54px;
+    margin-top: 4px;
+}
+
+#extra-info-dropdown {
+    font-family: Avenir;
+    font-size: 14px;
+    margin: auto;
+    text-align: center;
+    color: var(--disney-dark-blue);
+    padding-left: 10px;
+    padding-top: 16px;
+}
+
+#extra-info-text {
+    padding-top: 14px;
+    width: 90%;
+    margin: auto;
+    vertical-align: center;
+}
+
+.graph {
+    width: 100%;
+    max-height: 975px;
+    margin: auto;
+
+}
+
+.graph-container {
+    //background-color: white;
+    width: 70vw;
+    height: 40vw;
+    //border-style: solid;
+    //border-width: 4px;
+    //border-color: var(--disney-dark-blue);
+}
+
+.graph-tab {
+    font-family: Avenir;
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 4px 0px 4px 0px;
+}

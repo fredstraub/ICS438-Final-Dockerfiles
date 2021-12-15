@@ -1,0 +1,16 @@
+pmaw
+yfinance
+pandas
+matplotlib
+numpy
+numpy
+datetime
+scipy
+folium
+sklearn
+branca
+dash
+jupyter-dash
+dash-bootstrap-components
+dash_daq
+dash_bootstrap_templates
